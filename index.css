@@ -1,0 +1,41 @@
+
+        #tablepage{
+            margin: 20px;
+        }
+        .btn{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .rb{
+            display: inline-block;
+            margin-left: 5px;
+            text-align: center;
+        }
+        #tablepage{
+            text-align: center;
+        }
+        #line{
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr 1fr 1fr;
+            justify-content: center;
+        }
+        .right,.wrong{
+            margin: 5px;
+            padding: 2px;
+        }
+        .txt{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding-right: 5px;
+        }
+        .rowr{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background: #b9b1b1;
+            border-radius: 40%;
+        }
+        
+   

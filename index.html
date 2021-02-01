@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- additionals -->
+    <script src="https://use.fontawesome.com/b4f1ce8a81.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+   
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- additionals -->
+    <title>Math Time</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+   
+   
+   
+   
+   <div class="w3-container">
+  <h2>Math Time</h2>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Multiplication Table</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        
+        <div id="tablepage">
+               <input type="number" id="num" placeholder="Put which table you want">
+               <a class="btn" id="crttbl">creat</a>
+               <div id="multipier">
+                  
+                   
+               </div>
+               <div id="finalresult"></div>
+               <a class="btn" id="gresult" >Get Result</a>
+               <a class="btn" id="clear" >Clear</a>
+           </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  
+ <script src="index.js"></script>
+    
+</body>
+</html>
